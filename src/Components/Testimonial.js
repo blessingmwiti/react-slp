@@ -1,5 +1,5 @@
 import React from "react";
-import ProfilePic from "../Assets/john-doe-image.png";
+import ProfilePic from "../Assets/blessing-git.png";
 import { AiFillStar } from "react-icons/ai";
 
 const Testimonial = () => {
@@ -14,7 +14,7 @@ const Testimonial = () => {
         </p>
       </div>
       <div className="testimonial-section-bottom">
-        <img src={ProfilePic} alt="" />
+        <img height={150} width={150} src={ProfilePic} alt="" />
         <p>
           Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
           elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
@@ -26,7 +26,7 @@ const Testimonial = () => {
           <AiFillStar />
           <AiFillStar />
         </div>
-        <h2>John Doe</h2>
+        <h2>Blessing Mwiti</h2>
       </div>
     </div>
   );
